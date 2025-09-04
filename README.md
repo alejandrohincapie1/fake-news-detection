@@ -29,6 +29,10 @@ proyecto-jupiter/
 │
 ├── data/                   # Archivos con los datos brutos (Json) y archivos generados (csv)
 │
+├── docs/                   # Documentación del proyecto: enunciado,
+    ├── enunciado.md
+    └── memoria.pdf   
+│
 ├── 01_EDA/                 # Notebook con lectura de archivos json y analisis exploratorio de datos.
 │
 ├── 02_sql/                 # Consultas SQL utilizadas
