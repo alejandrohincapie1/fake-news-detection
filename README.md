@@ -2,7 +2,6 @@
   <img src="foto.png" alt="Descripción" width="600">
 </p>
 
-<h1 align="center">Mi Proyecto</h1>
 
 # Proyecto de Detección de fake news (En construcción)
 Este repositorio contiene mi Proyecto de final de master en analisis y ciencia de datos, enfocado en la **detección de fake news** mediante análisis de datos, SQL, Machine Learning, Deep Learning y visualización con Power BI.
