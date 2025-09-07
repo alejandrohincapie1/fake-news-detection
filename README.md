@@ -36,7 +36,7 @@ Fake-news-detection/
 ├── data/                        # Archivos con los datos brutos (Json) y archivos generados (csv)
 │    
 ├── docs/                        # Documentación del proyecto: enunciado
-    └── enunciado.md
+│    └── enunciado.md
 │
 ├── 01_EDA/                      # Notebook con lectura de archivos json y analisis exploratorio de datos.
 │
