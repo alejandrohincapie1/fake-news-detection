@@ -38,30 +38,38 @@ El proyecto busca cubrir todo el ciclo: **almacenamiento → procesamiento → a
 
 ## Tecnologías utilizadas  
 - **SQL / MySQL** → modelado relacional, limpieza y consultas.  
-- **Python (Scikit-learn, TensorFlow, Keras)** → análisis, ML y DL.  
-- **Power BI / Tableau** → visualización de resultados y KPIs.  
+- **Python (Pandas, Numpy, Matplotlib, Scikit-learn, TensorFlow, Keras)** → análisis, ML y DL.  
+- **Power BI** → visualización de resultados y KPIs.  
 
 ---
 
 ## Dataset  
 Los datos provienen de **archivos JSON** extraídos en septiembre de 2022. Cada artículo contiene:  
 
-- `t_id` → identificador único  
-- `titulo`, `texto`, `autor`, `fuente`  
-- `fake` → etiqueta (FAKE / REAL)  
-- `tipo` → tipo de noticia  
-- `visitas`, `compartir`, `favorito`  
-- `tiempo`, `compartir_tiempo`, `duracion`  
-- `pais`, `idioma`  
+- ***t_id:*** identificador único de la noticia.
+  
+- ***tiempo:*** unidad de tiempo (número entero) que representa el momento en que se publica
+   el artículo periodístico contando el número de horas que han pasado desde las 07:00 del
+   1 de septiembre de 2022. Por ejemplo, si este campo indica un 8 significa que la noticia
+   se publicó a las 15:00 (07:00 más 8 horas) del 1 de septiembre; mientras que si indica
+   un 25 significa que se publicó a las 08:00 del 2 de septiembre de 2022 (25 horas después
+   del momento de referencia).
+- ***titulo:*** título con el que se identifica la noticia.
+- ***texto:*** texto íntegro de la noticia.
+- ***fake:*** naturaleza de la noticia clasificada como: fake new (FAKE) o noticia veraz
+(REAL).
+- ***autor:*** autor que redacte la noticia.
+- ***fuente:*** periódico o página web que publique el artículo bajo su firma.
+- ***tipo:*** tipo de noticia (columna, carta al editor, artículo de opinión, ...).
+- ***visitas:*** número de visualizaciones que ha recibido la noticia.
+- ***compartir:*** número de veces que se ha compartido el enlace de la noticia en redes
+sociales.
+- ***compartir_tiempo:*** al igual que en el campo de tiempo, unidad de tiempo (número
+entero) que representa el momento en el que se comparte el artículo periodístico.
+- ***duracion:*** tiempo de lectura del usuario.
+- ***favorito:*** número de veces que un usuario ha marcado el artículo como favorito.
+- ***pais:*** país donde se publica la noticia.
+- ***idioma:*** idioma en el que se redacta la noticia.  
 
----
-
-## 📈 KPIs y preguntas de negocio (ejemplos)  
-- ¿Qué día se publicaron más noticias y de qué tipo?  
-- ¿Qué porcentaje de noticias compartidas son fake vs reales?  
-- ¿Qué fuentes y autores publican más fake news?  
-- Relación entre la longitud de título y texto.  
-- Países e idiomas con mayor incidencia de fake news.  
-- Noticias más visitadas, compartidas y favoritas.  
 
 -----------------------
