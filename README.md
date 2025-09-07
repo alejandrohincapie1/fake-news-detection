@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="foto.png" alt="Descripción" width="600">
+</p>
+
+<h1 align="center">Mi Proyecto</h1>
+
 # Proyecto de Detección de fake news (En construcción)
 Este repositorio contiene mi Proyecto de final de master en analisis y ciencia de datos, enfocado en la **detección de fake news** mediante análisis de datos, SQL, Machine Learning, Deep Learning y visualización con Power BI.
 
@@ -10,8 +16,9 @@ Las fases previstas son:
 1. EDA (Exploratory Data Analysis)  
 2. SQL (Consultas en MySQL)  
 3. Machine Learning  
-4. Deep Learning  
-5. Dashboard en Power BI
+4. Deep Learning
+5. Propuestas IA generativa  
+6. Dashboard en Power BI
 
 ---
 
@@ -25,22 +32,24 @@ Las fases previstas son:
 
 ## Estructura inicial del repositorio
 ```plaintext
-proyecto-jupiter/
+Fake-news-detection/
 │
-├── data/                   # Archivos con los datos brutos (Json) y archivos generados (csv)
-│
-├── docs/                   # Documentación del proyecto: enunciado,
+├── data/                        # Archivos con los datos brutos (Json) y archivos generados (csv)
+│    
+├── docs/                        # Documentación del proyecto: enunciado,
     ├── enunciado.md
     └── memoria.pdf   
 │
-├── 01_EDA/                 # Notebook con lectura de archivos json y analisis exploratorio de datos.
+├── 01_EDA/                      # Notebook con lectura de archivos json y analisis exploratorio de datos.
 │
-├── 02_sql/                 # Consultas SQL utilizadas
+├── 02_sql/                      # Consultas SQL utilizadas
 │
-├── 03_Machine_learning/    # 
+├── 03_Machine_learning/         # 
 │
 ├── 04_Deep_learning/
 │
-├── 05_Dashboard/
+├── 05_Propuestas_IA_generativa/ #
 │
-└── README.md                # Documentación principal del proyecto
+├── 06_Dashboard/                # Dashboard de power BI
+│
+└── README.md                    # Presentación y extructura del proyecto
