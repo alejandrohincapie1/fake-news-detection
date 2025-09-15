@@ -45,4 +45,11 @@ Fake-news-detection/
 │
 │
 │
+│
+├── 05_Popuestas_IA_generativa/  # Notebooks con soliciones de IA generativa aplicadas al proyecto.
+│      ├── Generacion_columna_tematica.ipynb
+│      ├── Generacion_imagenes_noticias.ipynb
+│      ├── Generacion_imagenes_noticias_2.ipynb
+│      └── Generacion_resumen.ipynb
+│
 └── README.md                    # Presentación y extructura del proyecto
